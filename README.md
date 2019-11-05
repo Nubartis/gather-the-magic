@@ -1,4 +1,4 @@
-![Default cards list](assets/screenshots/logo.jpg?raw=true "Default card list") 
+![Default cards list](assets/screenshots/logo.png?raw=true "Default card list") 
 
 # Gather the magic App
 
