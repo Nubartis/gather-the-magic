@@ -1,5 +1,5 @@
 <p style="text-align: center">
-  ![Main logo](assets/screenshots/logo.png?raw=true "Main logo")
+  <img src="assets/screenshots/logo.png" alt="main logo">
 </p>
 
 # Gather the magic App
