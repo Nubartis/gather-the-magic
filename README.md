@@ -1,3 +1,5 @@
+![Default cards list](assets/screenshots/logo.jpg?raw=true "Default card list") 
+
 # Gather the magic App
 
 Welcome everyone to Gather the Magic!
