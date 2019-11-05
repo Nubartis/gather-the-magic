@@ -17,7 +17,7 @@ import baseColors from '../data/base-colors.js';
  * use it to fetch data from the API
  */
 export default class MainView extends Component {
-  state = { 
+  state = {
     cards: [],                          //Array of cards used to render <CardList />
     activeFilters: [],                  //Array of filtering criteria to build api calls. Also used to give <FilterSelect /> a set of options
     filterIntersection: false,          //If true, our filtering criteria will be joint by a comma ',', wich means an intersection; instead of a vertical '|', a union.
@@ -202,11 +202,7 @@ export default class MainView extends Component {
               <Icon style={styles.feedbackIcon} name='error' color={designTokens.colors.warning} size={designTokens.baseSpacer * 5}/>
               <Text style={styles.feedbackText}>There was an error handling your request</Text>
             </View>
-
-
         }
-
-
       </View>
     )
   }
@@ -228,7 +224,7 @@ const styles = StyleSheet.create({
     backgroundColor: designTokens.colors.gray0
   },
   filterSelectorTouchable: {
-    paddingLeft: designTokens.baseSpacer,
+    padding: designTokens.baseSpacer,
     paddingRight: designTokens.baseSpacer * 2,
   },
   activeFilters: {

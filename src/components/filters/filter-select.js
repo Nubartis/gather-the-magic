@@ -71,7 +71,7 @@
     */
     handleSubmit = () => {
       const { updatedFilters, joinMode } = this.state;
-      this.setState({isOverlayVisible: false}, () => {this.props.handleSubmit(updatedFilters, joinMode)})
+      this.setState({isOverlayVisible: false}, () => {this.props.handleSubmit(updatedFilters.sort(), joinMode)})
     }
 
     render() {
@@ -93,6 +93,7 @@
             isVisible={isOverlayVisible}
             animationType='slide'
             onBackdropPress={this.handleOverlayHide}
+            onRequestClose={this.handleOverlayHide}
             >
             <View style={styles.overlayMainContent}>
             <View>

@@ -1,9 +1,9 @@
 {
-  "devToolsPort": 19003,
-  "expoServerPort": 19004,
-  "packagerPort": 19005,
-  "packagerPid": 88487,
-  "expoServerNgrokUrl": "https://89-h36.seviferr.thegathering.exp.direct",
-  "packagerNgrokUrl": "https://packager.89-h36.seviferr.thegathering.exp.direct",
-  "ngrokPid": 88506
+  "devToolsPort": 19004,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }

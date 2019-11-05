@@ -39,7 +39,8 @@ export default class CardListItem extends React.PureComponent {
       <View style={styles.colorList}>
         {
           colors.map((color, index) => {
-             return <View key={index} style={{...styles.colorListItem, backgroundColor: baseColors[color.toLowerCase()].value}} />
+             // return <View key={index} style={{...styles.colorListItem, backgroundColor: baseColors[color.toLowerCase()].value}} />
+             return <Image key={index} style={styles.manaIconImg} source={ baseColors[color.toLowerCase()].icon } />
           })
         }
       </View>
