@@ -17,7 +17,7 @@ export default class CardListItem extends React.PureComponent {
     const iterableManaCost = manaCost.substring(1, manaCost.length -1 ).split("}{");
 
     return iterableManaCost.map((item, index) => {
-      const manaCostName = item.replace(/(\/)*/g, ''); //Hybrid and pyrexian mana costs come as compounds: {X/Y}
+      const manaCostName = item.replace(/(\/)*/g, ''); //Hybrid and phyrexian mana costs come as compounds: {X/Y}
 
       if (manaCostName.length > 0 && !isNaN(manaCostName) || manaCostName === 'X') {
         //Variable colorless mana cost
