@@ -13,8 +13,7 @@ all the game cards.
 * ... aaaand if you click an item from the list, a full screen preview of the card will be shown.
 
 
-![Default cards list](assets/screenshots/sc-list-default.jpg?raw=true "Default card list") | ![Filter cards by color](assets/screenshots/sc-filter-colors.jpg?raw=true "Filter cards by color")
-:-------------------------:|:-------------------------:
+![Default cards list](assets/screenshots/sc-list-default.jpg?raw=true "Default card list") | ![Filter cards by color](assets/screenshots/sc-filter-colors.jpg?raw=true "Filter cards by color") |
 ![Filter cards by name](assets/screenshots/sc-filter-name.jpg?raw=true "Filter cards by name") | ![Card preview](assets/screenshots/sc-card-preview.jpg?raw=true "Card preview on click")
 
 ```
