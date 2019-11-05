@@ -28,7 +28,21 @@ NOTE: In order to make the experience smooth, this app stores every server reque
 making another async request to the API. Thus rendering the content much faster. This storage is reset everytime the app is open.
 
 
-## Installing
+## Run the app from expo server
+
+### Prerequisites
+
+Install expo client app for Android or iOs. Follow the instructions at: https://docs.expo.io/versions/v35.0.0/get-started/installation/
+
+### Instructions
+
+Once you have installed the expo client app, go to https://expo.io/@seviferr/gatherthemagic and scan the QR code.
+
+* on Android: from expo client app / scan QR code
+* on iOS: scan directly from the camera app
+
+
+## Run the app locally with expo development local server
 
 ### Prerequisites
 
@@ -40,8 +54,9 @@ npm install -g expo-cli
 ```
 NOTE: You may need to sudo the global installs
 
+And install expo client app for Android or iOs. Follow the instructions at: https://docs.expo.io/versions/v35.0.0/get-started/installation/
 
-### Run the development server
+### Instructions
 
 Get into the project directory an run:
 
@@ -60,8 +75,6 @@ or
 ```
 expo start
 ```
-
-### Open the project with the Expo client app on iOS or Android, or in your web browser
 
 To run the app we don’t need to build any native code because it runs in the Expo client, and the CLI will automatically install it for us in the iOS simulator or on any connected Android emulator or device. You can also download it from the App Store and Play Store.
 
