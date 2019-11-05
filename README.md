@@ -57,4 +57,4 @@ expo start
 
 To run the app we don’t need to build any native code because it runs in the Expo client, and the CLI will automatically install it for us in the iOS simulator or on any connected Android emulator or device. You can also download it from the App Store and Play Store.
 
-If you close the expo-cli or turn off your computer, you won't be able to access the app from your device anymore. We'll see how you can make it always available later on.
+For more details on how to use expo client check the docs: https://docs.expo.io/versions/latest/
